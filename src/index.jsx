@@ -19,6 +19,7 @@ root.render(
     <Router>
       {/* <Header /> */}
         <Routes>
+            <Route/>
           {/* <Route path="/Kasa" element={<Home />} exact /> */}
           {/* <Route path="/about" element={<About />} />
           <Route path="/apartment/:id" element={<Apartment />} />
