@@ -10,7 +10,7 @@ import Home from './pages/Home';
 // import Apartment from './pages/Apartment';
 // import ErrorPage from './pages/ErrorPage';
 import Header from './components/Header';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -24,7 +24,7 @@ root.render(
           <Route path="/apartment/:id" element={<Apartment />} />
           <Route path="*" element={<ErrorPage />} /> */}
         </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   </React.StrictMode>
 );
