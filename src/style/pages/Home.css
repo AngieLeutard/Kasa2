@@ -25,11 +25,14 @@
     .home_bannerContainer {
         height: 111px;
         margin-bottom: 22px;
+        width: 90%;
     }
 
     .home_cardList_wrapper {
         padding-top: 0;
         background-color: white;
         gap: 20px;
+        padding-bottom: 0;
+        margin-bottom: 27px;
     }
 }

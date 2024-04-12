@@ -42,7 +42,9 @@
 
     .banner_title {
         font-size: 24px;
-        width: 60%;
+        width: 69%;
         padding-left: 16px;
+        text-shadow: none;
+
     }
 }

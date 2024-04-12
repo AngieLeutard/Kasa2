@@ -46,7 +46,7 @@
 @media (max-width:767px) {
 
     .card_item {
-        width: 100%;
+        width: 90%;
         height: 255px;
     }
 }

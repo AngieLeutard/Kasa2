@@ -20,10 +20,11 @@
 
     .about_bannerContainer {
         margin-bottom: 19px;
+        height: 111px;
     }
 
     .about_textWrapper {
-        margin-bottom: 168px;
+        margin-bottom: 19px;
         gap: 20px;
         width: 100%;
     }
