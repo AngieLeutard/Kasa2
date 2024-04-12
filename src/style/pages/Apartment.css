@@ -1,0 +1,130 @@
+
+/* Slider */
+
+.apartment_slider {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* Description */
+
+.apartment_description_wrapper {
+    width: 100%;
+}
+
+.apartment_title_wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.apartment_title {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 36px;
+    color: #FF6060;
+}
+
+.apartment_location {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    color: #FF6060;
+    margin-bottom: 20px;
+}
+
+/* Profile */
+
+.profile_wrapper {
+    position: relative;
+    width: 100%;
+}
+
+/* Tag */
+
+.apartment_tag_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+/* TextBox */
+
+.apartment_textBox_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 76x;
+    margin-bottom: 10px;
+}
+
+.apartment_textBox {
+    width: 47%;
+    margin-bottom: 40px;
+}
+
+p:empty {
+    display: none;
+}
+
+ul:empty {
+    display: none;
+}
+
+li:empty {
+    display: none;
+}
+
+/* ** Mobile ** */
+
+@media (max-width:767px) {
+
+    /* Slider */
+	.apartment_slider {
+        margin-top: 11px;
+        margin-bottom: 15px;
+    }
+
+    /* Description */
+    
+    .apartment_title {
+        margin: 0px 0px 5px 0px;
+        font-size: 18px;
+    }
+    
+    .apartment_location {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    /* Profile */
+
+    .profile_wrapper {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 7px;
+    }
+
+    /* Tag */
+
+    .apartment_tag_wrapper {
+        margin-bottom: 16px;
+    }
+
+    /* TextBox */
+
+    .apartment_textBox_wrapper {
+        flex-direction: column;
+    }
+
+    .apartment_textBox {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

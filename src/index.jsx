@@ -7,8 +7,8 @@ import { Routes } from 'react-router-dom';
 import '../src/style/index.css';
 import Home from './pages/Home';
 import About from './pages/About';
-// import Apartment from './pages/Apartment';
-// import ErrorPage from './pages/ErrorPage';
+import Apartment from './pages/Apartment';
+import ErrorPage from './pages/ErrorPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -21,8 +21,8 @@ root.render(
         <Routes>
           <Route path="/Kasa" element={<Home />} exact />
           <Route path="/about" element={<About />} />
-          {/* <Route path="/apartment/:id" element={<Apartment />} /> */}
-          {/* <Route path="*" element={<ErrorPage />} /> */}
+          <Route path="/apartment/:id" element={<Apartment />} />
+          <Route path="*" element={<ErrorPage />} />
         </Routes>
       <Footer />
     </Router>

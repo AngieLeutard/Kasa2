@@ -1,0 +1,28 @@
+.tag_container {
+    display: flex;
+    justify-content: center;
+    padding: 3px 22px 3px 22px;
+    background-color: #FF6060;
+    border-radius: 10px;
+}
+
+.tag_text {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+}
+
+/* ** Mobile ** */
+
+@media (max-width:767px) {
+    
+    .tag_container {
+        padding: 2px 30px 2px 30px;
+        border-radius: 5px;
+    }
+    
+    .tag_text {
+        font-size: 10px;
+    }
+}
