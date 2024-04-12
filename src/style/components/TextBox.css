@@ -1,0 +1,91 @@
+.textBox_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #F7F7F7;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.textBox_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    margin: 0;
+    background-color: #FF6060;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    padding-left: 19px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    cursor: pointer;
+}
+
+.textBox_description {
+    top: 32px;
+    margin: 0;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 27px;
+    padding-bottom: 19px;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 24px;
+    color: #FF6060;
+    list-style: none;
+}
+
+details > summary {
+    list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+.summary-chevron-up {
+    position: absolute;
+    right: 33px;
+}
+
+.summary-chevron-down {
+    display: none;
+    position: absolute;
+    right: 33px;
+}
+
+details[open] .summary-chevron-up {
+    display: none;
+}
+
+details[open] .summary-chevron-down {
+    display: block;
+}
+
+/* ** Mobile ** */
+
+@media (max-width:767px) {
+
+    .textBox_title {
+        font-size: 13px;
+    }
+    
+    .textBox_description {
+        font-size: 12px;
+    }
+
+    .summary-chevron-up {
+        right: 7px;
+        bottom: 0.5px;
+    }
+    
+    .summary-chevron-down {
+        right: 7px;
+        bottom: 0.5px;
+    }
+}
