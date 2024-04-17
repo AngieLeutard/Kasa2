@@ -19,7 +19,7 @@ root.render(
     <Router>
       <Header />
         <Routes>
-          <Route path="/Kasa" element={<Home />} exact />
+          <Route path="/" element={<Home />} exact />
           <Route path="/about" element={<About />} />
           <Route path="/apartment/:id" element={<Apartment />} />
           <Route path="*" element={<ErrorPage />} />
