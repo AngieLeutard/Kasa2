@@ -20,6 +20,12 @@
 
 /* ** Mobile ** */
 
+@media (max-width:1022px) {
+    .home_bannerContainer {
+        height: 180px;
+    }
+}
+
 @media (max-width:767px) {
 
     .home_bannerContainer {

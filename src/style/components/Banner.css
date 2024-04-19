@@ -29,6 +29,12 @@
 
 /* ** Mobile ** */
 
+@media (max-width:1022px) {
+    .banner_title {
+        font-size: 40px;
+    }
+}
+
 @media (max-width:767px) {
 
     .banner_wrapper {
@@ -45,6 +51,5 @@
         width: 69%;
         padding-left: 16px;
         text-shadow: none;
-
     }
 }

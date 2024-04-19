@@ -20,7 +20,7 @@ const Star = ({hostRate}) => {
 };
 
 Star.propTypes = {
-    hostRate: PropTypes.number
+    hostRate: PropTypes.string
 }
 
 export default Star;
